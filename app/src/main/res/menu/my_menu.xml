@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmScreen1"
+        android:title="Screen1" />
+    <item
+        android:id="@+id/itmScreen2"
+        android:title="Screen2" />
+    <item
+        android:id="@+id/itmYnet"
+        android:title="Ynet" />
+</menu>

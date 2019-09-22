@@ -3,20 +3,12 @@ package com.example.naya_optionsmenu2019;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.Menu;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivityScreen2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        //
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-
+        setContentView(R.layout.activity_screen2);
     }
 }
