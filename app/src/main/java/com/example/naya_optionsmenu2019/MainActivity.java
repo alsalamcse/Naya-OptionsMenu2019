@@ -3,6 +3,7 @@ package com.example.naya_optionsmenu2019;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -42,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         if(item.getItemId()==R.id.itmYnet)
         {
             Toast.makeText(this,"ynet",Toast.LENGTH_SHORT).show();
+
+            Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ynet.co.il"));
+            startActivity(intent);
         }
         return true;
     }
